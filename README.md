@@ -5,6 +5,7 @@
 <div align="center">
   <a href="https://github.com/k5tuck/4DMessenger">
     <img src="images/starship.svg" alt="Logo" width="80" height="80">
+    <!-- https://www.svgrepo.com/svg/84124/spaceship -->
   </a>
 
   <h3 align="center">4DMessenger</h3>
@@ -44,7 +45,8 @@
 <!-- ABOUT -->
 ## About 4DM
 
-[!][Product Screen Shot](images/brain.mp4)
+[!][Product Screen Shot]("images/brain.mp4") 
+<!-- https://www.istockphoto.com/video/ai-artificial-intelligence-digital-brain-animation-neural-network-big-data-deep-gm1327081576-411547699 -->
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
