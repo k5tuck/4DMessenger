@@ -44,8 +44,9 @@
 <!-- ABOUT -->
 ## About 4DM
 
-<!-- [!][Product Screen Shot](util/images/brain.mp4) -->
-[![Product Screen Shot](util/images/brain_snap2.jpg)](https://media.istockphoto.com/id/1327081576/video/ai-artificial-intelligence-digital-brain-animation-neural-network-big-data-deep-learning.mp4?s=mp4-640x640-is&k=20&c=tdk5Yl1AJjz1PB0mHxkGXO5MRpaxY2H5Z4qEJ4fxtRk=)
+<p align="center">
+  <video src="util/images/brain.mp4" loop autoplay controls alt="Product Screen Shot"></video>
+</p>
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
