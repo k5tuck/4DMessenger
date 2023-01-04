@@ -4,8 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/k5tuck/4DMessenger">
-    <img src="images/starship.svg" alt="Logo" width="80" height="80">
-    <!-- https://www.svgrepo.com/svg/84124/spaceship -->
+    <img src="util/images/starship.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">4DMessenger</h3>
@@ -45,8 +44,7 @@
 <!-- ABOUT -->
 ## About 4DM
 
-[!][Product Screen Shot]("images/brain.mp4") 
-<!-- https://www.istockphoto.com/video/ai-artificial-intelligence-digital-brain-animation-neural-network-big-data-deep-gm1327081576-411547699 -->
+[!][Product Screen Shot](util/images/brain.mp4)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -140,6 +138,18 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
+## Huge Technology Thank You!
+
+This project is powered by various open-source projects. Among others:
+
+- [Spdlog](https://github.com/gabime/spdlog) for the awesome logging capabilities
+- [ImGui](https://github.com/ocornut/imgui) for the ease of UI Displays
+- [GLFW](https://github.com/glfw/glfw) because who wants to implement windows from scratch
+<!-- - [Welcome Bot](https://github.com/behaviorbot/welcome) to welcome new contributors -->
+<!-- - [All Contributors Bot](https://github.com/all-contributors/all-contributors-bot) to recognize the contributions of everyone -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Helpful Links
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
@@ -150,7 +160,6 @@ Use this space to list resources you find helpful and would like to give credit 
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

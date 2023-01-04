@@ -1,0 +1,12 @@
+**/.vs
+/.vscode
+
+# 4DMessenger
+/4DMessenger/*.vcxproj.*
+/4DMessenger/bin
+/4DMessenger/obj
+
+#Vendors
+/vendor/glfw
+/vendor/imgui
+/vendor/spdlog
