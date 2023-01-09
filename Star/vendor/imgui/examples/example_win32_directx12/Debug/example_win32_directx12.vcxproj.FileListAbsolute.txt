@@ -1,1 +1,0 @@
-D:\dev\Projects\cpp_projects\4DMessenger\vendor\imgui\examples\example_win32_directx12\Debug\example_win32_directx12.exe
