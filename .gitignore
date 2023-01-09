@@ -18,6 +18,12 @@
 resources/premake/bin
 
 # Vendor 
+/Star/vendor/glfw
+/Star/vendor/glm
+/Star/vendor/imgui
+/Star/vendor/spdlog
+/Star/vendor/yaml-cpp
+
 /Star/vendor/glad/libs
 /Star/vendor/glad/bin
 /Star/vendor/glad/bin-int
