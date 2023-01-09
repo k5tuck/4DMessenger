@@ -12,7 +12,7 @@
 /Messenger/*.vcxproj.*
 
 # Kratos
-/Kratos/
+# /Kratos/
 
 # Premake
 resources/premake/bin

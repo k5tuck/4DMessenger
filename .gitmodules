@@ -15,4 +15,4 @@
 	url = https://github.com/k5tuck/glm.git
 [submodule "Kratos"]
 	path = Kratos
-	url = .\\Kratos\\
+	url = https://github.com/k5tuck/kratos
