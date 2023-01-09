@@ -1,0 +1,597 @@
+﻿  binary.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\binary.cpp(9,13): warning C4273: 'YAML::EncodeBase64': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(16,26): message : see previous definition of 'EncodeBase64'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\binary.cpp(68,28): warning C4273: 'YAML::DecodeBase64': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,41): message : see previous definition of 'DecodeBase64'
+  graphbuilder.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,28): warning C4251: 'YAML::Parser::m_pScanner': class 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' needs to have dll-interface to be used by clients of class 'YAML::Parser'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,8): message : see declaration of 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(86,31): warning C4251: 'YAML::Parser::m_pDirectives': class 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>' needs to have dll-interface to be used by clients of class 'YAML::Parser'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(86,8): message : see declaration of 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>'
+  graphbuilderadapter.cpp
+  Defining YAML_CPP_API for DLL import
+  convert.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(31,9): warning C4251: 'YAML::detail::memory::m_nodes': class 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(30,22): message : see declaration of 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(42,17): warning C4251: 'YAML::detail::memory_holder::m_pMemory': class 'std::shared_ptr<YAML::detail::memory>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory_holder'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(24,28): message : see declaration of 'std::shared_ptr<YAML::detail::memory>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: 'YAML::detail::node_data::m_sequence': class 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(39,23): message : see declaration of 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: 'YAML::detail::node_data::m_map': class 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\convert.cpp(41,21): warning C4273: 'YAML::convert<bool>::decode': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\convert.h(227,28): message : see previous definition of 'decode'
+  depthguard.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  directives.cpp
+  emit.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,16): message : see declaration of 'std::vector<char,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(132,33): warning C4251: 'YAML::Emitter::m_pState': class 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>' needs to have dll-interface to be used by clients of class 'YAML::Emitter'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(132,8): message : see declaration of 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emit.cpp(7,10): warning C4273: 'YAML::operator <<': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\emit.h(23,23): message : see previous definition of '<<'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emit.cpp(14,15): warning C4273: 'YAML::operator <<': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\emit.h(26,28): message : see previous definition of '<<'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emit.cpp(20,13): warning C4273: 'YAML::Dump': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\emit.h(29,26): message : see previous definition of 'Dump'
+  emitfromevents.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,16): message : see declaration of 'std::vector<char,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(132,33): warning C4251: 'YAML::Emitter::m_pState': class 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>' needs to have dll-interface to be used by clients of class 'YAML::Emitter'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(132,8): message : see declaration of 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>'
+  emitter.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,16): message : see declaration of 'std::vector<char,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(132,33): warning C4251: 'YAML::Emitter::m_pState': class 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>' needs to have dll-interface to be used by clients of class 'YAML::Emitter'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(132,8): message : see declaration of 'std::unique_ptr<YAML::EmitterState,std::default_delete<YAML::EmitterState>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(14,10): warning C4273: 'YAML::Emitter::Emitter': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(35,3): message : see previous definition of '{ctor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(16,10): warning C4273: 'YAML::Emitter::Emitter': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(36,3): message : see previous definition of '{ctor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(19,11): warning C4273: 'YAML::Emitter::~Emitter': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(39,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(21,22): warning C4273: 'YAML::Emitter::c_str': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(42,15): message : see previous definition of 'c_str'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(23,22): warning C4273: 'YAML::Emitter::size': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(43,15): message : see previous definition of 'size'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(26,15): warning C4273: 'YAML::Emitter::good': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(46,8): message : see previous definition of 'good'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(28,28): warning C4273: 'YAML::Emitter::GetLastError': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(47,21): message : see previous definition of 'GetLastError'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(33,15): warning C4273: 'YAML::Emitter::SetOutputCharset': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(50,8): message : see previous definition of 'SetOutputCharset'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(37,15): warning C4273: 'YAML::Emitter::SetStringFormat': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(51,8): message : see previous definition of 'SetStringFormat'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(41,15): warning C4273: 'YAML::Emitter::SetBoolFormat': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(52,8): message : see previous definition of 'SetBoolFormat'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(52,15): warning C4273: 'YAML::Emitter::SetNullFormat': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(53,8): message : see previous definition of 'SetNullFormat'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(56,15): warning C4273: 'YAML::Emitter::SetIntBase': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(54,8): message : see previous definition of 'SetIntBase'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(60,15): warning C4273: 'YAML::Emitter::SetSeqFormat': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(55,8): message : see previous definition of 'SetSeqFormat'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(64,15): warning C4273: 'YAML::Emitter::SetMapFormat': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(56,8): message : see previous definition of 'SetMapFormat'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(73,15): warning C4273: 'YAML::Emitter::SetIndent': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(57,8): message : see previous definition of 'SetIndent'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(77,15): warning C4273: 'YAML::Emitter::SetPreCommentIndent': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(58,8): message : see previous definition of 'SetPreCommentIndent'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(81,15): warning C4273: 'YAML::Emitter::SetPostCommentIndent': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(59,8): message : see previous definition of 'SetPostCommentIndent'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(85,15): warning C4273: 'YAML::Emitter::SetFloatPrecision': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(60,8): message : see previous definition of 'SetFloatPrecision'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(89,15): warning C4273: 'YAML::Emitter::SetDoublePrecision': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(61,8): message : see previous definition of 'SetDoublePrecision'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(93,15): warning C4273: 'YAML::Emitter::RestoreGlobalModifiedSettings': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(62,8): message : see previous definition of 'RestoreGlobalModifiedSettings'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(99,19): warning C4273: 'YAML::Emitter::SetLocalValue': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(65,12): message : see previous definition of 'SetLocalValue'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(139,19): warning C4273: 'YAML::Emitter::SetLocalIndent': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(66,12): message : see previous definition of 'SetLocalIndent'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(144,19): warning C4273: 'YAML::Emitter::SetLocalPrecision': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(67,12): message : see previous definition of 'SetLocalPrecision'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(153,15): warning C4273: 'YAML::Emitter::EmitBeginDoc': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(96,8): message : see previous definition of 'EmitBeginDoc'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(175,15): warning C4273: 'YAML::Emitter::EmitEndDoc': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(97,8): message : see previous definition of 'EmitEndDoc'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(195,15): warning C4273: 'YAML::Emitter::EmitBeginSeq': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(98,8): message : see previous definition of 'EmitBeginSeq'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(205,15): warning C4273: 'YAML::Emitter::EmitEndSeq': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(99,8): message : see previous definition of 'EmitEndSeq'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(230,15): warning C4273: 'YAML::Emitter::EmitBeginMap': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(100,8): message : see previous definition of 'EmitBeginMap'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(240,15): warning C4273: 'YAML::Emitter::EmitEndMap': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(101,8): message : see previous definition of 'EmitEndMap'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(265,15): warning C4273: 'YAML::Emitter::EmitNewline': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(102,8): message : see previous definition of 'EmitNewline'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(274,15): warning C4273: 'YAML::Emitter::CanEmitNewline': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(129,8): message : see previous definition of 'CanEmitNewline'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(278,15): warning C4273: 'YAML::Emitter::PrepareNode': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(106,8): message : see previous definition of 'PrepareNode'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(302,15): warning C4273: 'YAML::Emitter::PrepareTopNode': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(107,8): message : see previous definition of 'PrepareTopNode'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(328,15): warning C4273: 'YAML::Emitter::FlowSeqPrepareNode': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(108,8): message : see previous definition of 'FlowSeqPrepareNode'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(359,15): warning C4273: 'YAML::Emitter::BlockSeqPrepareNode': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(109,8): message : see previous definition of 'BlockSeqPrepareNode'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(393,15): warning C4273: 'YAML::Emitter::FlowMapPrepareNode': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(111,8): message : see previous definition of 'FlowMapPrepareNode'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(410,15): warning C4273: 'YAML::Emitter::FlowMapPrepareLongKey': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(113,8): message : see previous definition of 'FlowMapPrepareLongKey'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(441,15): warning C4273: 'YAML::Emitter::FlowMapPrepareLongKeyValue': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(114,8): message : see previous definition of 'FlowMapPrepareLongKeyValue'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(469,15): warning C4273: 'YAML::Emitter::FlowMapPrepareSimpleKey': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(115,8): message : see previous definition of 'FlowMapPrepareSimpleKey'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(500,15): warning C4273: 'YAML::Emitter::FlowMapPrepareSimpleKeyValue': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(116,8): message : see previous definition of 'FlowMapPrepareSimpleKeyValue'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(531,15): warning C4273: 'YAML::Emitter::BlockMapPrepareNode': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(118,8): message : see previous definition of 'BlockMapPrepareNode'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(552,15): warning C4273: 'YAML::Emitter::BlockMapPrepareLongKey': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(120,8): message : see previous definition of 'BlockMapPrepareLongKey'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(587,15): warning C4273: 'YAML::Emitter::BlockMapPrepareLongKeyValue': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(121,8): message : see previous definition of 'BlockMapPrepareLongKeyValue'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(617,15): warning C4273: 'YAML::Emitter::BlockMapPrepareSimpleKey': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(122,8): message : see previous definition of 'BlockMapPrepareSimpleKey'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(645,15): warning C4273: 'YAML::Emitter::BlockMapPrepareSimpleKeyValue': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(123,8): message : see previous definition of 'BlockMapPrepareSimpleKeyValue'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(674,15): warning C4273: 'YAML::Emitter::SpaceOrIndentTo': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(125,8): message : see previous definition of 'SpaceOrIndentTo'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(682,15): warning C4273: 'YAML::Emitter::PrepareIntegralStream': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(92,8): message : see previous definition of 'PrepareIntegralStream'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(701,15): warning C4273: 'YAML::Emitter::StartedScalar': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(93,8): message : see previous definition of 'StartedScalar'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(718,19): warning C4273: 'YAML::Emitter::Write': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(70,12): message : see previous definition of 'Write'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(754,22): warning C4273: 'YAML::Emitter::GetFloatPrecision': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(89,15): message : see previous definition of 'GetFloatPrecision'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(758,22): warning C4273: 'YAML::Emitter::GetDoublePrecision': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(90,15): message : see previous definition of 'GetDoublePrecision'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(762,22): warning C4273: 'YAML::Emitter::ComputeFullBoolName': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(127,15): message : see previous definition of 'ComputeFullBoolName'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(811,22): warning C4273: 'YAML::Emitter::ComputeNullName': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(128,15): message : see previous definition of 'ComputeNullName'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(826,19): warning C4273: 'YAML::Emitter::Write': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(71,12): message : see previous definition of 'Write'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(843,19): warning C4273: 'YAML::Emitter::Write': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(72,12): message : see previous definition of 'Write'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(856,19): warning C4273: 'YAML::Emitter::Write': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(73,12): message : see previous definition of 'Write'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(879,19): warning C4273: 'YAML::Emitter::Write': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(74,12): message : see previous definition of 'Write'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(900,19): warning C4273: 'YAML::Emitter::Write': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(75,12): message : see previous definition of 'Write'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(929,15): warning C4273: 'YAML::Emitter::EmitKindTag': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(103,8): message : see previous definition of 'EmitKindTag'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(931,19): warning C4273: 'YAML::Emitter::Write': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(76,12): message : see previous definition of 'Write'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(947,19): warning C4273: 'YAML::Emitter::Write': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(77,12): message : see previous definition of 'Write'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\emitter.cpp(960,19): warning C4273: 'YAML::Emitter::Write': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\emitter.h(78,12): message : see previous definition of 'Write'
+  emitterstate.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  emitterutils.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,16): message : see declaration of 'std::vector<char,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(65,30): warning C4251: 'YAML::Binary::m_data': class 'std::vector<unsigned char,std::allocator<unsigned char>>' needs to have dll-interface to be used by clients of class 'YAML::Binary'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\binary.h(18,19): message : see declaration of 'std::vector<unsigned char,std::allocator<unsigned char>>'
+  exceptions.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(7,13): warning C4273: 'YAML::Exception::~Exception': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(157,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(8,19): warning C4273: 'YAML::ParserException::~ParserException': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(183,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(9,27): warning C4273: 'YAML::RepresentationException::~RepresentationException': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(191,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(10,17): warning C4273: 'YAML::InvalidScalar::~InvalidScalar': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(200,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(11,15): warning C4273: 'YAML::KeyNotFound::~KeyNotFound': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(210,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(12,15): warning C4273: 'YAML::InvalidNode::~InvalidNode': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(235,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(13,17): warning C4273: 'YAML::BadConversion::~BadConversion': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(243,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(14,18): warning C4273: 'YAML::BadDereference::~BadDereference': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(257,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(15,16): warning C4273: 'YAML::BadSubscript::~BadSubscript': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(266,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(16,15): warning C4273: 'YAML::BadPushback::~BadPushback': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(274,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(17,13): warning C4273: 'YAML::BadInsert::~BadInsert': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(282,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(18,20): warning C4273: 'YAML::EmitterException::~EmitterException': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(290,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\exceptions.cpp(19,11): warning C4273: 'YAML::BadFile::~BadFile': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(299,4): message : see previous definition of '{dtor}'
+  exp.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  memory.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(31,9): warning C4251: 'YAML::detail::memory::m_nodes': class 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(30,22): message : see declaration of 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(42,17): warning C4251: 'YAML::detail::memory_holder::m_pMemory': class 'std::shared_ptr<YAML::detail::memory>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory_holder'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(24,28): message : see declaration of 'std::shared_ptr<YAML::detail::memory>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: 'YAML::detail::node_data::m_sequence': class 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(39,23): message : see declaration of 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: 'YAML::detail::node_data::m_map': class 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\memory.cpp(8,21): warning C4273: 'YAML::detail::memory_holder::merge': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(39,8): message : see previous definition of 'merge'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\memory.cpp(16,15): warning C4273: 'YAML::detail::memory::create_node': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(26,9): message : see previous definition of 'create_node'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\memory.cpp(22,14): warning C4273: 'YAML::detail::memory::merge': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(27,8): message : see previous definition of 'merge'
+  node.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node.cpp(6,6): warning C4273: 'YAML::Clone': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(142,19): message : see previous definition of 'Clone'
+  node_data.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(31,9): warning C4251: 'YAML::detail::memory::m_nodes': class 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(30,22): message : see declaration of 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(42,17): warning C4251: 'YAML::detail::memory_holder::m_pMemory': class 'std::shared_ptr<YAML::detail::memory>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory_holder'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(24,28): message : see declaration of 'std::shared_ptr<YAML::detail::memory>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: 'YAML::detail::node_data::m_sequence': class 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(39,23): message : see declaration of 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: 'YAML::detail::node_data::m_map': class 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(16,34): error C2720: 'YAML::detail::node::m_amount': '__declspec(dllimport)' storage-class specifier illegal on members
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(16,34): error C2491: 'YAML::detail::node::m_amount': definition of dllimport static data member not allowed
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(18,31): warning C4273: 'YAML::detail::node_data::empty_scalar': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(84,29): message : see previous definition of 'empty_scalar'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(23,12): warning C4273: 'YAML::detail::node_data::node_data': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(32,3): message : see previous definition of '{ctor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(35,17): warning C4273: 'YAML::detail::node_data::mark_defined': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(36,8): message : see previous definition of 'mark_defined'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(41,17): warning C4273: 'YAML::detail::node_data::set_mark': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(37,8): message : see previous definition of 'set_mark'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(43,17): warning C4273: 'YAML::detail::node_data::set_type': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(38,8): message : see previous definition of 'set_type'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(74,17): warning C4273: 'YAML::detail::node_data::set_tag': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(39,8): message : see previous definition of 'set_tag'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(76,17): warning C4273: 'YAML::detail::node_data::set_style': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(42,8): message : see previous definition of 'set_style'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(78,17): warning C4273: 'YAML::detail::node_data::set_null': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(40,8): message : see previous definition of 'set_null'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(83,17): warning C4273: 'YAML::detail::node_data::set_scalar': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(41,8): message : see previous definition of 'set_scalar'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(90,24): warning C4273: 'YAML::detail::node_data::size': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(54,15): message : see previous definition of 'size'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(107,17): warning C4273: 'YAML::detail::node_data::compute_seq_size': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(87,8): message : see previous definition of 'compute_seq_size'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(112,17): warning C4273: 'YAML::detail::node_data::compute_map_size': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(88,8): message : see previous definition of 'compute_map_size'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(122,32): warning C4273: 'YAML::detail::node_data::begin': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(56,23): message : see previous definition of 'begin'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(136,26): warning C4273: 'YAML::detail::node_data::begin': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(57,17): message : see previous definition of 'begin'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(150,32): warning C4273: 'YAML::detail::node_data::end': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(59,23): message : see previous definition of 'end'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(164,26): warning C4273: 'YAML::detail::node_data::end': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(60,17): message : see previous definition of 'end'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(179,17): warning C4273: 'YAML::detail::node_data::push_back': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(63,8): message : see previous definition of 'push_back'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(192,17): warning C4273: 'YAML::detail::node_data::insert': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(64,8): message : see previous definition of 'insert'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(210,18): warning C4273: 'YAML::detail::node_data::get': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(74,9): message : see previous definition of 'get'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(224,18): warning C4273: 'YAML::detail::node_data::get': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(75,9): message : see previous definition of 'get'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(247,17): warning C4273: 'YAML::detail::node_data::remove': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(76,8): message : see previous definition of 'remove'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(272,17): warning C4273: 'YAML::detail::node_data::reset_sequence': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(90,8): message : see previous definition of 'reset_sequence'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(277,17): warning C4273: 'YAML::detail::node_data::reset_map': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(91,8): message : see previous definition of 'reset_map'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(282,17): warning C4273: 'YAML::detail::node_data::insert_map_pair': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(93,8): message : see previous definition of 'insert_map_pair'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(289,17): warning C4273: 'YAML::detail::node_data::convert_to_map': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(94,8): message : see previous definition of 'convert_to_map'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\node_data.cpp(307,17): warning C4273: 'YAML::detail::node_data::convert_sequence_to_map': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(95,8): message : see previous definition of 'convert_sequence_to_map'
+  nodebuilder.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: 'YAML::detail::node_data::m_sequence': class 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\nodebuilder.h(64,22): message : see declaration of 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: 'YAML::detail::node_data::m_map': class 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(31,9): warning C4251: 'YAML::detail::memory::m_nodes': class 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(30,22): message : see declaration of 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(42,17): warning C4251: 'YAML::detail::memory_holder::m_pMemory': class 'std::shared_ptr<YAML::detail::memory>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory_holder'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(24,28): message : see declaration of 'std::shared_ptr<YAML::detail::memory>'
+  nodeevents.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: 'YAML::detail::node_data::m_sequence': class 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(39,23): message : see declaration of 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: 'YAML::detail::node_data::m_map': class 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+  null.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\null.cpp(4,7): warning C4273: 'YAML::Null': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\null.h(23,27): message : see previous definition of 'Null'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\null.cpp(6,6): warning C4273: 'YAML::IsNullString': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\null.h(21,19): message : see previous definition of 'IsNullString'
+  ostream_wrapper.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,29): warning C4251: 'YAML::ostream_wrapper::m_buffer': class 'std::vector<char,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::ostream_wrapper'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(49,16): message : see declaration of 'std::vector<char,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\ostream_wrapper.cpp(8,18): warning C4273: 'YAML::ostream_wrapper::ostream_wrapper': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(18,3): message : see previous definition of '{ctor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\ostream_wrapper.cpp(16,18): warning C4273: 'YAML::ostream_wrapper::ostream_wrapper': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(19,3): message : see previous definition of '{ctor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\ostream_wrapper.cpp(24,19): warning C4273: 'YAML::ostream_wrapper::~ostream_wrapper': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(24,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\ostream_wrapper.cpp(26,23): warning C4273: 'YAML::ostream_wrapper::write': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(26,8): message : see previous definition of 'write'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\ostream_wrapper.cpp(39,23): warning C4273: 'YAML::ostream_wrapper::write': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(27,8): message : see previous definition of 'write'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\ostream_wrapper.cpp(52,23): warning C4273: 'YAML::ostream_wrapper::update_pos': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\ostream_wrapper.h(46,8): message : see previous definition of 'update_pos'
+  Generating Code...
+  Compiling...
+  parse.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(31,9): warning C4251: 'YAML::detail::memory::m_nodes': class 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(30,22): message : see declaration of 'std::set<YAML::detail::shared_node,std::less<YAML::detail::shared_node>,std::allocator<YAML::detail::shared_node>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\memory.h(42,17): warning C4251: 'YAML::detail::memory_holder::m_pMemory': class 'std::shared_ptr<YAML::detail::memory>' needs to have dll-interface to be used by clients of class 'YAML::detail::memory_holder'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(24,28): message : see declaration of 'std::shared_ptr<YAML::detail::memory>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(135,15): warning C4251: 'YAML::Node::m_invalidKey': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\node.h(136,40): warning C4251: 'YAML::Node::m_pMemory': class 'std::shared_ptr<YAML::detail::memory_holder>' needs to have dll-interface to be used by clients of class 'YAML::Node'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\ptr.h(23,35): message : see declaration of 'std::shared_ptr<YAML::detail::memory_holder>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(104,15): warning C4251: 'YAML::detail::node_data::m_tag': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(108,15): warning C4251: 'YAML::detail::node_data::m_scalar': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(112,12): warning C4251: 'YAML::detail::node_data::m_sequence': class 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\nodebuilder.h(64,22): message : see declaration of 'std::vector<YAML::detail::node *,std::allocator<YAML::detail::node *>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(118,12): warning C4251: 'YAML::detail::node_data::m_map': class 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_iterator.h(40,23): message : see declaration of 'std::vector<std::pair<YAML::detail::node *,YAML::detail::node *>,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(122,20): warning C4251: 'YAML::detail::node_data::m_undefinedPairs': class 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>' needs to have dll-interface to be used by clients of class 'YAML::detail::node_data'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\detail\node_data.h(121,25): message : see declaration of 'std::list<YAML::detail::node_data::kv_pair,std::allocator<std::pair<YAML::detail::node *,YAML::detail::node *>>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,28): warning C4251: 'YAML::Parser::m_pScanner': class 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' needs to have dll-interface to be used by clients of class 'YAML::Parser'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,8): message : see declaration of 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(86,31): warning C4251: 'YAML::Parser::m_pDirectives': class 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>' needs to have dll-interface to be used by clients of class 'YAML::Parser'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(86,8): message : see declaration of 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parse.cpp(12,6): warning C4273: 'YAML::Load': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(24,19): message : see previous definition of 'Load'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parse.cpp(17,6): warning C4273: 'YAML::Load': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(31,19): message : see previous definition of 'Load'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parse.cpp(22,6): warning C4273: 'YAML::Load': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(38,19): message : see previous definition of 'Load'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parse.cpp(32,6): warning C4273: 'YAML::LoadFile': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(46,19): message : see previous definition of 'LoadFile'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parse.cpp(40,19): warning C4273: 'YAML::LoadAll': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(53,32): message : see previous definition of 'LoadAll'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parse.cpp(45,19): warning C4273: 'YAML::LoadAll': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(60,32): message : see previous definition of 'LoadAll'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parse.cpp(50,19): warning C4273: 'YAML::LoadAll': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(67,32): message : see previous definition of 'LoadAll'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parse.cpp(65,19): warning C4273: 'YAML::LoadAllFromFile': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\node\parse.h(75,32): message : see previous definition of 'LoadAllFromFile'
+  parser.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,28): warning C4251: 'YAML::Parser::m_pScanner': class 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>' needs to have dll-interface to be used by clients of class 'YAML::Parser'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(85,8): message : see declaration of 'std::unique_ptr<YAML::Scanner,std::default_delete<YAML::Scanner>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(86,31): warning C4251: 'YAML::Parser::m_pDirectives': class 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>' needs to have dll-interface to be used by clients of class 'YAML::Parser'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(86,8): message : see declaration of 'std::unique_ptr<YAML::Directives,std::default_delete<YAML::Directives>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parser.cpp(14,9): warning C4273: 'YAML::Parser::Parser': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(29,3): message : see previous definition of '{ctor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parser.cpp(16,9): warning C4273: 'YAML::Parser::Parser': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(40,3): message : see previous definition of '{ctor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parser.cpp(18,10): warning C4273: 'YAML::Parser::~Parser': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(42,4): message : see previous definition of '{dtor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parser.cpp(20,22): warning C4273: 'YAML::Parser::operator bool': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(45,12): message : see previous definition of 'operator bool'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parser.cpp(22,14): warning C4273: 'YAML::Parser::Load': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(51,8): message : see previous definition of 'Load'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parser.cpp(27,14): warning C4273: 'YAML::Parser::HandleNextDocument': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(59,8): message : see previous definition of 'HandleNextDocument'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parser.cpp(41,14): warning C4273: 'YAML::Parser::ParseDirectives': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(68,8): message : see previous definition of 'ParseDirectives'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parser.cpp(62,14): warning C4273: 'YAML::Parser::HandleDirective': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(70,8): message : see previous definition of 'HandleDirective'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parser.cpp(70,14): warning C4273: 'YAML::Parser::HandleYamlDirective': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(76,8): message : see previous definition of 'HandleYamlDirective'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parser.cpp(96,14): warning C4273: 'YAML::Parser::HandleTagDirective': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(82,8): message : see previous definition of 'HandleTagDirective'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\parser.cpp(109,14): warning C4273: 'YAML::Parser::PrintTokens': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\parser.h(61,8): message : see previous definition of 'PrintTokens'
+  regex_yaml.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.cpp(6,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(56,3): message : see previous definition of '{ctor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.cpp(7,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(33,3): message : see previous definition of '{ctor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.cpp(9,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(34,3): message : see previous definition of '{ctor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.cpp(11,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(35,3): message : see previous definition of '{ctor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.cpp(13,8): warning C4273: 'YAML::RegEx::RegEx': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(36,3): message : see previous definition of '{ctor}'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.cpp(17,7): warning C4273: 'YAML::operator !': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(39,29): message : see previous definition of '!'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.cpp(23,7): warning C4273: 'YAML::operator |': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(40,29): message : see previous definition of '|'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.cpp(30,7): warning C4273: 'YAML::operator &': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(41,29): message : see previous definition of '&'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.cpp(37,7): warning C4273: 'YAML::operator +': inconsistent dll linkage
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(42,29): message : see previous definition of '+'
+  scanner.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  scanscalar.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  scantag.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  scantoken.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,22): warning C4251: 'YAML::RegEx::m_params': class 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>' needs to have dll-interface to be used by clients of class 'YAML::RegEx'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\src\regex_yaml.h(82,8): message : see declaration of 'std::vector<YAML::RegEx,std::allocator<YAML::RegEx>>'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  simplekey.cpp
+  Defining YAML_CPP_API for DLL import
+  singledocparser.cpp
+  Defining YAML_CPP_API for DLL import
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,58): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept(101,7): message : see declaration of 'std::runtime_error'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(153,20): message : see declaration of 'YAML::Exception'
+D:\dev\Projects\cpp_projects\4DMessenger\Engine\vendor\yaml-cpp\include\yaml-cpp\exceptions.h(162,15): warning C4251: 'YAML::Exception::msg': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'YAML::Exception'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5294,17): message : see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  stream.cpp
+  Defining YAML_CPP_API for DLL import
+  tag.cpp
+  Defining YAML_CPP_API for DLL import
+  Generating Code...
