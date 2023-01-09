@@ -16,3 +16,13 @@
 [submodule "Kratos"]
 	path = Kratos
 	url = https://github.com/k5tuck/kratos
+[submodule ".\\Star\\vendor\\spdlog\\"]
+	url = https://github.com/k5tuck/spdlog
+[submodule ".\\Star\\vendor\\glm"]
+	url = https://github.com/k5tuck/glm
+[submodule ".\\Star\\vendor\\glfw"]
+	url = https://github.com/k5tuck/glfw
+[submodule ".\\Star\\vendor\\imgui"]
+	url = https://github.com/k5tuck/imgui
+[submodule ".\\Star\\vendor\\yaml-cpp\\"]
+	url = https://github.com/k5tuck/yaml-cpp
