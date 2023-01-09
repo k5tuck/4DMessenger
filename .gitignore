@@ -1,12 +1,25 @@
 **/.vs
 /.vscode
+/bin
+/bin-inter
 
-# 4DMessenger
-/4DMessenger/*.vcxproj.*
-/4DMessenger/bin
-/4DMessenger/obj
+*.sln
 
-#Vendors
-/vendor/glfw
-/vendor/imgui
-/vendor/spdlog
+# Star
+/Star/*.vcxproj.*
+
+# Messenger
+/Messenger/*.vcxproj.*
+
+# Kratos
+/Kratos/
+
+# Premake
+resources/premake/bin
+
+# Vendor 
+/Star/vendor/glad/libs
+/Star/vendor/glad/bin
+/Star/vendor/glad/bin-int
+/Star/vendor/glad/*.vcxproj
+/Star/vendor/glad/*.vcxproj.*

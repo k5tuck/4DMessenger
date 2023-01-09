@@ -3,19 +3,19 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/k5tuck/4DMessenger">
-    <img src="util/images/starship.svg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/k5tuck/StarMessenger">
+    <img src="resources/images/logos/starship.svg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">4DMessenger</h3>
+  <h3 align="center">StarMessenger</h3>
 
   <p align="center">
     <br />
-    <a href="https://github.com/k5tuck/4DMessenger">View Demo</a>
+    <a href="https://github.com/k5tuck/StarMessenger">View Demo</a>
     ·
-    <a href="https://github.com/k5tuck/4DMessenger/issues">Report Bug</a>
+    <a href="https://github.com/k5tuck/StarMessenger/issues">Report Bug</a>
     ·
-    <a href="https://github.com/k5tuck/4DMessenger/issues">Request Feature</a>
+    <a href="https://github.com/k5tuck/StarMessenger/issues">Request Feature</a>
   </p>
 </div>
 
@@ -46,7 +46,7 @@
 
 <p align="center">
   <!-- video src="https://media.istockphoto.com/id/1327081576/video/ai-artificial-intelligence-digital-brain-animation-neural-network-big-data-deep-learning.mp4?s=mp4-640x640-is&k=20&c=tdk5Yl1AJjz1PB0mHxkGXO5MRpaxY2H5Z4qEJ4fxtRk=" loop autoplay controls / -->
-    <img src="util/images/brain_snap2.jpg" alt="Product Screen Shot"/>
+    <img src="resources/images/brain_snap2.jpg" alt="Product Screen Shot"/>
 </p>
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
@@ -73,7 +73,7 @@ This is an example of how to list things you need to use the software and how to
 
 * CMake
   ```sh
-  make 4DMessenger
+  make StarMessenger
   ```
 
 ### Installation
@@ -113,7 +113,7 @@ Use this space to show useful examples of how a project can be used. Additional 
     - [ ] Korean
     - [ ] Spanish
 
-See the [open issues](https://github.com/k5tuck/4DMessenger/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/k5tuck/StarMessenger/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,16 +166,16 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/k5tuck/4DMessenger.svg?style=for-the-badge
-[contributors-url]: https://github.com/k5tuck/4DMessenger/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/k5tuck/4DMessenger.svg?style=for-the-badge
-[forks-url]: https://github.com/k5tuck/4DMessenger/network/members
-[stars-shield]: https://img.shields.io/github/stars/k5tuck/4DMessenger.svg?style=for-the-badge
-[stars-url]: https://github.com/k5tuck/4DMessenger/stargazers
-[issues-shield]: https://img.shields.io/github/issues/k5tuck/4DMessenger.svg?style=for-the-badge
-[issues-url]: https://github.com/k5tuck/4DMessenger/issues
-[license-shield]: https://img.shields.io/github/license/k5tuck/4DMessenger.svg?style=for-the-badge
-[license-url]: https://github.com/k5tuck/4DMessenger/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/k5tuck/StarMessenger.svg?style=for-the-badge
+[contributors-url]: https://github.com/k5tuck/StarMessenger/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/k5tuck/StarMessenger.svg?style=for-the-badge
+[forks-url]: https://github.com/k5tuck/StarMessenger/network/members
+[stars-shield]: https://img.shields.io/github/stars/k5tuck/StarMessenger.svg?style=for-the-badge
+[stars-url]: https://github.com/k5tuck/StarMessenger/stargazers
+[issues-shield]: https://img.shields.io/github/issues/k5tuck/StarMessenger.svg?style=for-the-badge
+[issues-url]: https://github.com/k5tuck/StarMessenger/issues
+[license-shield]: https://img.shields.io/github/license/k5tuck/StarMessenger.svg?style=for-the-badge
+[license-url]: https://github.com/k5tuck/StarMessenger/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 
