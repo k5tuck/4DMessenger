@@ -1,18 +1,18 @@
 [submodule "Star/vendor/spdlog"]
 	path = Star/vendor/spdlog
-	url = https://github.com/k5tuck/spdlog.git
+	url = https://github.com/k5tuck/spdlog
 [submodule "Star/vendor/imgui"]
 	path = Star/vendor/imgui
-	url = https://github.com/k5tuck/imgui.git
+	url = https://github.com/k5tuck/imgui
 [submodule "Star/vendor/glfw"]
 	path = Star/vendor/glfw
-	url = https://github.com/k5tuck/glfw.git
+	url = https://github.com/k5tuck/glfw
 [submodule "Star/vendor/yaml-cpp"]
 	path = Star/vendor/yaml-cpp
-	url = https://github.com/k5tuck/yaml-cpp.git
+	url = https://github.com/k5tuck/yaml-cpp
 [submodule "Star/vendor/glm"]
 	path = Star/vendor/glm
-	url = https://github.com/k5tuck/glm.git
+	url = https://github.com/k5tuck/glm
 [submodule "Kratos"]
 	path = Kratos
 	url = https://github.com/k5tuck/kratos
