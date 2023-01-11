@@ -11,7 +11,7 @@
   <h1 align="center">StarMessenger</h1>
 
 <div align="left">
-  <a href="https://github.com/k5tuck/StarMessenger/blob/main/.github/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/k5tuck/starmessenger/build.yml?label=test&style=plastic.svg" alt="Build Badge"></a>
+  <a href="https://github.com/k5tuck/StarMessenger/blob/main/.github/workflows/build.yml"><img src="https://img.shields.io/github/actions/workflow/status/k5tuck/starmessenger/build.yml?style=plastic.svg" alt="Build Badge"></a>
   <a href="https://github.com/k5tuck/StarMessenger/blob/main/.github/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/k5tuck/starmessenger/tests.yml?label=test&style=plastic.svg" alt="Tests Badge"></a>
   <a href="https://github.com/k5tuck/starmessenger/issues"><img src="https://img.shields.io/github/issues/k5tuck/starmessenger?color=yellow&style=plastic.svg" alt="Issues Badge"></a>
   <a href="http://doge.mit-license.org"><img src="https://img.shields.io/github/license/k5tuck/starmessenger?color=blue&style=plastic.svg" alt="MIT License Shield"></a>
