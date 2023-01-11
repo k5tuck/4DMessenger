@@ -1,5 +1,10 @@
 name: tests
-on: workflow_dispatch
+on: 
+  workflow_run:
+    workflows:
+      - "build"
+    types:
+      - "completed"
 jobs: 
   windows: 
     runs-on: windows-2022
