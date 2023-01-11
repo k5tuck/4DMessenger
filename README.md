@@ -15,6 +15,7 @@
   <a href="https://github.com/k5tuck/StarMessenger/blob/main/.github/workflows/tests.yml"><img src="https://img.shields.io/github/actions/workflow/status/k5tuck/starmessenger/tests.yml?label=test&style=plastic.svg" alt="Tests Badge"></a>
   <a href="https://github.com/k5tuck/starmessenger/issues"><img src="https://img.shields.io/github/issues/k5tuck/starmessenger?color=yellow&style=plastic.svg" alt="Issues Badge"></a>
   <a href="http://doge.mit-license.org"><img src="https://img.shields.io/github/license/k5tuck/starmessenger?color=blue&style=plastic.svg" alt="MIT License Shield"></a>
+  <a href="https://ko-fi.com/Z8Z6HR5G8" title="Donate to this project using Buy Me A Coffee"><img align="right" src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button"/></a>
 </div>
 
   <p align="center">
