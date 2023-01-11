@@ -1,0 +1,9 @@
+name: tests
+on: workflow_dispatch
+jobs: 
+  windows: 
+    runs-on: windows-2022
+    steps: 
+      - name: Test Run
+        run: |
+          echo "Testing Workflow"

@@ -1,0 +1,31 @@
+name: build
+on: [push]
+jobs: 
+  windows: 
+    runs-on: windows-2022
+    steps: 
+      - name: Test Run
+        run: |
+          echo "Testing Workflow"
+      # - name: Install Premake
+      #   working-directory: resources/premake
+      #   run: | 
+      #     mkdir .\bin
+      #     pushd .\bin
+      #     git.exe clone 
+      #     popd
+      # - name: Run Premake build
+      #   working-directory: resources/scripts
+      #   run: |
+      #     .\Windows_V22Build
+
+  # linux: 
+  #   runs-on: ubuntu-22.04
+  #   steps: 
+      # - name: Install Premake
+      #   working-directory: resources/premake
+        # run: | 
+      # - name: Run Premake build
+      #   working-directory: resources/scripts
+        # run: | 
+
